@@ -1,0 +1,106 @@
+
+.product-grid, .product-grid .product-image4 {
+    position: relative
+}
+.product-grid {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    border-radius: 3px;
+    overflow: hidden;
+    z-index: 1;
+    transition: all .3s ease 0s;
+    margin-bottom: 20px;
+}
+.product-grid:hover {
+    box-shadow: 0 0 10px rgba(10, 100, 100, 1)
+}
+.product-grid .product-image4 a {
+    display: block
+}
+.product-grid .product-image4 img {
+    width: 100%;
+    height: auto
+}
+.product-grid .pic-1 {
+    opacity: 1;}
+
+.product-grid .product-content {
+    padding: 25px
+}
+.product-grid .title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 7px;
+    transition: all .3s ease 0s
+}
+.product-grid .title a {
+    color: #222
+}
+.product-grid .title a:hover {
+    color: #0b0d1e
+}
+.product-grid .price {
+    color: #0b0d1e;
+    font-size: 17px;
+    font-weight: 700;
+float: right;
+    margin: 0 2px 5px 0;
+    display: block
+}
+
+.product-grid .add-to-cart {
+    border: none;
+    display: inline-block;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: all .3s
+}
+.product-grid:hover .add-to-cart {
+    border: 1px solid transparent;
+    background: #FFF;
+    color: #fff
+}
+.product-grid .add-to-cart:hover {
+    background-color: rgba(10, 100, 100, 1);
+    box-shadow: 0 0 10px rgba(10, 100, 100, 1);
+}
+
+/* SideBar */
+#price_range {
+    height: 6px;
+}
+.ui-slider-handle {
+    height: 13px ;
+    width: 13px ;
+    background: #0b0d1e ;
+    border-radius: 25px;
+}
+.ui-slider-range.ui-corner-all.ui-widget-header {
+    background: rgba(10, 100, 100, 1);
+}
+.list-group {
+    border: 1px solid #f3f3f3;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.list-group h3 {
+    font-size: 22px;
+}
+.list-group-item {
+    border: none;
+    margin-left: -10px;
+    margin-bottom: 0px;
+    font-size: 16px;
+}
+.list-group-item:focus, .list-group-item:hover {
+    z-index: 0;
+}
+
+
+
+
